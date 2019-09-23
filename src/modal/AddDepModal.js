@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import{Modal,Button,Row,Col,Form} from 'react-bootstrap';
-import {PrintThisComponent} from './PrintThisComponent';
+import{Modal,Button} from 'react-bootstrap';
 import {DownloadFile} from '../DownloadFile';
 
 export class AddDepModal extends Component {

@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import { Container,Row,Col,ModalHeader } from 'reactstrap';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import profile from './assets/profile_pic.png';
 import {PrintThisComponent} from './modal/PrintThisComponent'
 import {Table} from './data/table'
-import Dialog from './Dialog';
 import {Button,ButtonToolbar} from 'react-bootstrap'
 import {AddDepModal} from './modal/AddDepModal';
-import{Modal,Form, ModalBody, ModalFooter } from 'react-bootstrap';
+
 
 
 

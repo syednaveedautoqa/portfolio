@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PROJECTS from './data/projects';
-import Dialog from './Dialog';
-import Table from './data/table';
+
 
 
 class Project extends Component{
@@ -12,7 +11,7 @@ class Project extends Component{
      
     render(){
        // console.log('this.props',this.props);
-        const {Client, Designation,Location, Duration,jobDuties} = this.props.project;
+        const {Client, Designation,Location, Duration} = this.props.project;
         
         // display: 'inline-block'
         return (

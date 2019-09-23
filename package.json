@@ -2,8 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://syednaveedautoqa.github.io/portfolio",
+  "homepage": "https://syednaveedautoqa.github.io/myportfolioapp.git",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
